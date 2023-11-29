@@ -24,4 +24,21 @@ font-size: 17px;
 font-style: normal;
 font-weight: 400;
 }
-
+main1{
+    display: flex;
+    padding: 42px 24px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0px 68px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+img{
+opacity: 60%;
+max-width: 500px;
+max-height: 600px;
+}
+textDiv{
+    padding: 100px;
+}
