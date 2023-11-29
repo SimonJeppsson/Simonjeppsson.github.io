@@ -1,0 +1,27 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    padding: 24px 42px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    align-self: stretch;
+    flex-wrap: wrap;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 300;
+}
+#headBtn{
+color: var(--Black, #2D2D2D);
+/* Body text */
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+}
+
