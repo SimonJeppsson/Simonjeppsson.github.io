@@ -37,8 +37,11 @@ main1{
 img{
 opacity: 60%;
 max-width: 500px;
-max-height: 600px;
+max-height: 500px;
 }
-textDiv{
+mainDiv{
     padding: 100px;
+    border: dotted 1px;
+    max-width: 500px;
+    max-height: 500px;
 }
