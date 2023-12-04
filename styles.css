@@ -1,12 +1,9 @@
 /* Add your styles here */
 body {
-    
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color:orange;
-
-
 }
 header {
     display: flex;
@@ -27,6 +24,19 @@ header {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+#headLogo{
+
+    width: 50px;
+    height: 50px;
+    padding: 40px;
+}
+#linkTree{
+    display: flex;
+    align-items: center;
 }
 
 #headBtn{
@@ -75,12 +85,19 @@ main1{
     flex-wrap: wrap;
     align-items: flex-end;
 }
-img{
-opacity: 60%;
-max-width: 500px;
-max-height: 500px;
+#imgPort{
+    opacity: 60%;
+    width: 100%;
+    height: auto;
+    max-width: 500px; /* Ensure image takes up the full width of its container */
+    max-height: 500px;
 
-
+}
+#imgLogo{
+    width: 100%; /* Ensure image takes up the full width of its container */
+    height: 100%;
+    max-width: 500px;
+    max-width: 500px;
 }
 
 #mainDiv{
