@@ -5,18 +5,18 @@ body {
     margin: 0;
     padding: 0;
     background-color:orange;
+
+
 }
 header {
     display: flex;
-    padding: 24px 42px;
+    padding: 24px 10px; /* Adjust padding for smaller screens */
     justify-content: space-between;
     align-items: center;
-    align-content: center;
-    align-self: stretch;
     flex-wrap: wrap;
     font-family: "futura-pt", sans-serif;
     font-weight: 800;
-    font-style:normal;
+    font-style: normal;
 }
 #headerBtn{
     display: flex;
@@ -45,7 +45,7 @@ cursor: pointer;
 outline: inherit;
 transition: .3s;
 }
-}
+
 #secodaryBtn{
     background: none;
 	color: inherit;
@@ -79,6 +79,8 @@ img{
 opacity: 60%;
 max-width: 500px;
 max-height: 500px;
+
+
 }
 
 #mainDiv{
@@ -94,7 +96,8 @@ flex-wrap:nowrap;
 flex-direction: row;
 }
 contentDiv{
-    max-width: 200px;
+    max-width: 100%; /* Adjust maximum width for smaller screens */
+
 }
 
 #mainHead{
