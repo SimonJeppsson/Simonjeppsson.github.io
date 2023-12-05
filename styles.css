@@ -30,13 +30,13 @@ header {
     font-family: "hwt-lustig-elements", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 120px;
+    font-size: 80px;
     transition: .3s;
     color: #000000;
     text-decoration: none;
 }
 #headerBtn:hover{
-    font-size: 123px;
+    font-size: 82px;
 
 
 }
