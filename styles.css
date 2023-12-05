@@ -27,7 +27,7 @@ header {
 	padding: 0;
 	cursor: pointer;
 	outline: inherit;
-    font-family: "hwt-lustig-elements", sans-serif;
+    font-family: "hwt-lustig-elements-inline-p", sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 80px;
@@ -37,8 +37,6 @@ header {
 }
 #headerBtn:hover{
     font-size: 82px;
-
-
 }
 
 #headLogo{
@@ -126,8 +124,7 @@ flex-wrap:nowrap;
 flex-direction: row;
 }
 contentDiv{
-    max-width: 100%; /* Adjust maximum width for smaller screens */
-
+max-width: 100%; /* Adjust maximum width for smaller screens */
 }
 
 #mainHead{
@@ -136,6 +133,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 30px; /* 150% */
 }
+
 #mainHead2{
 font-size: 68px;
 font-style: normal;
