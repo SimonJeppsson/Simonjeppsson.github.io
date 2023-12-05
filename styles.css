@@ -102,6 +102,8 @@ main1{
     max-width: 500px; /* Ensure image takes up the full width of its container */
     max-height: 500px;
     border-radius: 5%;
+    min-width: auto;
+    min-height: auto;
 
 }
 #imgLogo{
